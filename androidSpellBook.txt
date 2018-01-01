@@ -1,4 +1,4 @@
-Android Troubleshooting Notes
+Android Spell Book (Troubleshooting Notes)
 ########################
 Key:
 / = Start of syntax
