@@ -1,0 +1,37 @@
+Android Troubleshooting Notes
+########################
+Key:
+/ = Start of syntax
+\ = End of syntax
+### = end of topic
+@ = Start of new topic
+
+########################
+Notes:
+@Application Icon
+Use the "add" option after right clicking on "res", then select "Image Resoruce" and add your icon. Identify that icon in the "Manifest" and your icon will be changed.
+######################
+@Timers
+Use "CountDownTimer" to setup timed events.
+
+/CountDownTimer timer = new CountDownTimer(x, y){
+@Override
+onTick(){}
+@Override
+onFinish(){}
+}.start();\
+######################
+@List Views
+Use an array list to store the elements of the listview and then use an "ArrayAdapter" to apply these elements to the listview.
+/ArrayAdapter<String> name = new ArrayAdapter(context, layoutStyle, NameOfArray)
+/
+Then use .setAdapter(AdapterName) on the listview to apply the adapter.
+############################
+@Cant Reslove Symbol R.
+Android studio sometimes forgets common stuff.
+
+To fix this, go to build>clean project
+
+This will syncronize the project files.
+#############################
+@
