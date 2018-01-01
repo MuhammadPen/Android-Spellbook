@@ -7,7 +7,6 @@ Key:
 @ = Start of new topic
 
 ########################
-Notes:
 @Application Icon
 Use the "add" option after right clicking on "res", then select "Image Resoruce" and add your icon. Identify that icon in the "Manifest" and your icon will be changed.
 ######################
